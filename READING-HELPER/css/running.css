@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* top */
+#half-top {
+  width: 100%;
+  min-height: 48vh;
+  background-color: lightsalmon;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#infor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-text-area {
+  position: absolute;
+  left: 45vw;
+}
+
+/* bot */
+#half-bot {
+  width: 100%;
+  background-color: lightgreen;
+  margin-top: 20px;
+  min-height: 48vh;
+}
+
+#answer-group {
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=running.css.map */

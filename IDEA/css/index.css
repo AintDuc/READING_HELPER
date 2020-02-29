@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrap {
+  position: relative;
+}
+/* left */
+#left {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 48vw;
+  min-height: 100vh;
+  background-color: lightcoral;
+  margin-right: 20px;
+}
+
+/* right */
+#right {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 48vw;
+  min-height: 100vh;
+  background-color: lightgreen;
+}
+
+.box {
+  min-height: 200px;
+  background-color: lightseagreen;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

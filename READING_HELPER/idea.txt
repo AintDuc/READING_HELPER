@@ -1,0 +1,28 @@
+READING HELPER
+
+I - Mục đích
+Giúp người dùng (user) luyện tập Reading Skills trong tiếng Anh.
+
+II - Các tính năng
+1. User chọn một bộ đề có sẵn và làm rồi so kết quả với hệ thống.
+2. User upload đề bài (gồm bài đọc và các câu hỏi). AI sẽ phân tích bài đọc và trả lời câu hỏi. Tùy cấp độ của User:
+- Beginner: nhờ AI gợi ý và tự làm
+- Professional: Tự làm và so kết quả với AI
+
+III - Thiết kế
+1. Front-end
+- Nút đọc input
+- Ô trống cho người dùng nhập câu trả lời
+- Nút xuất output
+- mây mây mây
+
+2. Back-end
+- "Đọc" và "hiểu" input thông qua một model tự build hoặc API của ai đó
+- Input chia làm 2 loại: text và image. Nếu là image thì phải thêm 1 bước đọc text ra rồi mới phân tích (nên bước đầu mình tạm chưa làm)
+Đưa output qua cho front-end
+
+3. AI
+Là một model hoặc API về NLU (Natural Language Understanding) có khả năng "hiểu" một văn bản và trả lời các câu hỏi ngữ nghĩa liên quan đến văn bản đó
+
+IV - Kịch bản ví dụ
+User nhập một đoạn văn bản và các câu hỏi cho hệ thống. Hệ thống nhận input gửi qua model/API để phân tích/trả lời câu hỏi, lưu vào database. Người dùng chọn mức Professional, hệ thống cho người dùng một khoảng thời gian để làm và nhập câu trả lời. Khi hết thời gian, hệ thống đưa ra kết quả của mình để user so sánh. Bla bla tiếp theo từ từ nghĩ thêm.

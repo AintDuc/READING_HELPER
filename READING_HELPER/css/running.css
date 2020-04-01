@@ -7,42 +7,54 @@
 #half-top {
   width: 100%;
   min-height: 48vh;
-  background-color: lightsalmon;
+  background-color: #81ecec9c;
   margin-bottom: 20px;
-  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
-
-#infor {
-  position: absolute;
-  top: 0;
-  left: 0;
+#half-top #infor {
   height: 200px;
   width: 200px;
-  background-color: lightseagreen;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-#input-text-area {
-  position: absolute;
-  left: 45vw;
+#half-top #reading-stuff {
+  margin: 0 auto;
 }
 
 /* bot */
 #half-bot {
   width: 100%;
-  background-color: lightgreen;
+  background-color: #fab0a07c;
   margin-top: 20px;
   min-height: 48vh;
 }
-
-#answer-group {
+#half-bot .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#half-bot .answer-group {
   width: 400px;
-  height: 200px;
-  background-color: yellow;
+  min-height: 200px;
+  background-color: transparent;
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#half-bot .answer-group .id {
+  width: 10%;
+}
+#half-bot .answer-group .question {
+  width: 90%;
+}
+#half-bot .answer-group .answer {
+  margin-left: 10%;
 }
 
 /*# sourceMappingURL=running.css.map */
